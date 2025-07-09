@@ -48802,53 +48802,6 @@
                 "sha256Digest": "6e5e053d05bad6ad6305bd024f51e355e60fde8bb6a03350dfd81c25437d2e45"
             }
         ],
-        "csvmware": [
-            {
-                "downloadUrl": "https://github.com/Azure/az-csvmware-cli/releases/download/0.3.0/csvmware-0.3.0-py2.py3-none-any.whl",
-                "filename": "csvmware-0.3.0-py2.py3-none-any.whl",
-                "metadata": {
-                    "azext.isPreview": true,
-                    "azext.minCliCoreVersion": "2.0.67",
-                    "classifiers": [
-                        "Development Status :: 4 - Beta",
-                        "Intended Audience :: Developers",
-                        "Intended Audience :: System Administrators",
-                        "Programming Language :: Python",
-                        "Programming Language :: Python :: 2",
-                        "Programming Language :: Python :: 2.7",
-                        "Programming Language :: Python :: 3",
-                        "Programming Language :: Python :: 3.4",
-                        "Programming Language :: Python :: 3.5",
-                        "Programming Language :: Python :: 3.6",
-                        "License :: OSI Approved :: MIT License"
-                    ],
-                    "extensions": {
-                        "python.details": {
-                            "contacts": [
-                                {
-                                    "email": "shimitta@microsoft.com",
-                                    "name": "Shivam Mittal",
-                                    "role": "author"
-                                }
-                            ],
-                            "document_names": {
-                                "description": "DESCRIPTION.rst"
-                            },
-                            "project_urls": {
-                                "Home": "https://github.com/Azure/az-vmware-cli"
-                            }
-                        }
-                    },
-                    "generator": "bdist_wheel (0.30.0)",
-                    "license": "MIT",
-                    "metadata_version": "2.0",
-                    "name": "csvmware",
-                    "summary": "Manage Azure VMware Solution by CloudSimple.",
-                    "version": "0.3.0"
-                },
-                "sha256Digest": "dfb9767f05ac13c762ea9dc4327169e63a5c11879123544b200edb9a2c9a8a42"
-            }
-        ],
         "custom-providers": [
             {
                 "downloadUrl": "https://azcliprod.blob.core.windows.net/cli-extensions/custom_providers-0.1.0-py2.py3-none-any.whl",
@@ -76088,6 +76041,101 @@
                     "version": "2.37.2"
                 },
                 "sha256Digest": "84c55153ea55fb01652b68055760356b9b6f9a0358568e910944f8ba72246254"
+            },
+            {
+                "downloadUrl": "https://azcliprod.blob.core.windows.net/cli-extensions/ml-2.37.3-py3-none-any.whl",
+                "filename": "ml-2.37.3-py3-none-any.whl",
+                "metadata": {
+                    "azext.minCliCoreVersion": "2.15.0",
+                    "classifiers": [
+                        "Development Status :: 5 - Production/Stable",
+                        "Intended Audience :: Developers",
+                        "Intended Audience :: System Administrators",
+                        "Environment :: Console",
+                        "Programming Language :: Python",
+                        "Programming Language :: Python :: 3",
+                        "Programming Language :: Python :: 3.7",
+                        "Programming Language :: Python :: 3.8",
+                        "Programming Language :: Python :: 3.9",
+                        "Programming Language :: Python :: 3.10",
+                        "Programming Language :: Python :: 3.11",
+                        "Programming Language :: Python :: 3.12",
+                        "Programming Language :: Python :: 3.13",
+                        "License :: OSI Approved :: MIT License"
+                    ],
+                    "description_content_type": "text/x-rst",
+                    "extensions": {
+                        "python.details": {
+                            "contacts": [
+                                {
+                                    "email": "azuremlsdk@microsoft.com",
+                                    "name": "Microsoft Corporation",
+                                    "role": "author"
+                                }
+                            ],
+                            "document_names": {
+                                "description": "DESCRIPTION.rst"
+                            },
+                            "project_urls": {
+                                "Home": "https://docs.microsoft.com/azure/machine-learning/azure-machine-learning-release-notes-cli-v2?view=azureml-api-2"
+                            }
+                        }
+                    },
+                    "extras": [],
+                    "generator": "bdist_wheel (0.30.0)",
+                    "license": "MIT",
+                    "metadata_version": "2.0",
+                    "name": "ml",
+                    "run_requires": [
+                        {
+                            "requires": [
+                                "azure-common (>=1.1)",
+                                "azure-common>=1.1",
+                                "azure-identity (==1.17.1)",
+                                "azure-identity==1.17.1",
+                                "azure-mgmt-resource (<23.0.0,>=3.0.0)",
+                                "azure-mgmt-resource<23.0.0,>=3.0.0",
+                                "azure-mgmt-resourcegraph (<9.0.0,>=2.0.0)",
+                                "azure-mgmt-resourcegraph<9.0.0,>=2.0.0",
+                                "azure-monitor-opentelemetry",
+                                "azure-monitor-opentelemetry",
+                                "azure-storage-blob (>=12.10.0)",
+                                "azure-storage-blob>=12.10.0",
+                                "azure-storage-file-datalake (>=12.2.0)",
+                                "azure-storage-file-datalake>=12.2.0",
+                                "azure-storage-file-share",
+                                "azure-storage-file-share",
+                                "colorama (<1.0.0)",
+                                "colorama<1.0.0",
+                                "cryptography",
+                                "cryptography",
+                                "docker",
+                                "docker",
+                                "isodate (<1.0.0)",
+                                "isodate<1.0.0",
+                                "jsonschema (<5.0.0,>=4.0.0)",
+                                "jsonschema<5.0.0,>=4.0.0",
+                                "marshmallow (<4.0.0,>=3.5)",
+                                "marshmallow<4.0.0,>=3.5",
+                                "pydash (<9.0.0,>=6.0.0)",
+                                "pydash<9.0.0,>=6.0.0",
+                                "pyjwt (<3.0.0)",
+                                "pyjwt<3.0.0",
+                                "six (>=1.11.0)",
+                                "six>=1.11.0",
+                                "strictyaml (<2.0.0)",
+                                "strictyaml<2.0.0",
+                                "tqdm (<5.0.0)",
+                                "tqdm<5.0.0",
+                                "typing-extensions (<5.0.0)",
+                                "typing-extensions<5.0.0"
+                            ]
+                        }
+                    ],
+                    "summary": "Microsoft Azure Command-Line Tools AzureMachineLearningWorkspaces Extension",
+                    "version": "2.37.3"
+                },
+                "sha256Digest": "124bf354c4ea3c24bc628c342429e3e07c53ef0fe24eb4f07e6a126da994e670"
             }
         ],
         "mobile-network": [
